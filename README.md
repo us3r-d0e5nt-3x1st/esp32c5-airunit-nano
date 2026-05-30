@@ -1,0 +1,1 @@
+mostly from seeed's amazing wiki for xiao s3 board: https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#for-seeed-studio-xiao-esp32s3-sense
