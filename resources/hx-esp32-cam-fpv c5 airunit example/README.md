@@ -1,0 +1,1 @@
+it's all documented here, i'm gonna make my design as pin-to-pin compatible with this as possible: https://github.com/RomanLut/hx-esp32-cam-fpv/blob/e0f3d50c493b3d2b5f32726006f0b232bfb88d4a/doc/esp32c5_air_unit.md
