@@ -36,7 +36,6 @@
       "ratsnest",
       "grid",
       "footprints_front",
-      "footprints_back",
       "footprint_values",
       "footprint_references",
       "tracks",
@@ -50,10 +49,9 @@
       "locked_item_shadows",
       "conflict_shadows",
       "shapes",
-      "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_df7dffff",
     "zone_display_mode": 0
   },
   "git": {
