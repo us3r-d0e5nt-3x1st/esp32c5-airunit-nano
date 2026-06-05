@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "esp32c5-airunit-nano")
-		(date "2026-05-30")
+		(date "2026-06-05")
+		(rev "V1.0")
 		(company "us3r_d0e5nt_3x1st")
 	)
 	(lib_symbols
@@ -3926,6 +3927,16 @@
 		)
 		(uuid "09d8a2ca-0cbf-471d-bd3c-ea5d66c04960")
 	)
+	(text "all passive elements (resistors, capacitors) are in 0603 package"
+		(exclude_from_sim no)
+		(at 62.992 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7668e32c-533a-4e6e-b3cf-fd6afb3f1a3b")
+	)
 	(text "vddaf\ngnd\ny4\ny3\ny5\ny2\ny6\npclk\ny7\ngnd\ny8\nmclk\ny9\nvdddo\nvddd\nhsync\npwdn\nvsync\nrst\nscl\nvdda\nsda\ngnd\nstrobe"
 		(exclude_from_sim no)
 		(at 230.124 73.66 0)
@@ -6879,7 +6890,7 @@
 			)
 		)
 		(property "Value" "100kR"
-			(at 73.914 47.752 90)
+			(at 72.898 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7189,8 +7200,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 83.058 53.594 0)
+		(property "Value" "10uF 10V"
+			(at 77.47 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7734,7 +7745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "red"
+		(property "Value" "NCD0603R2"
 			(at 37.338 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,7 +7991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10V"
 			(at 187.198 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "22kR"
 			(at 70.866 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8297,8 +8308,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 243.84 83.058 90)
+		(property "Value" "10uF 10V"
+			(at 247.65 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8378,8 +8389,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 43.688 53.848 0)
+		(property "Value" "10uF 10V"
+			(at 38.1 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8516,6 +8527,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 66.04 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b55022f8-b670-41d1-880c-0ececd9a47df")
+		(property "Reference" "SW1"
+			(at 67.31 163.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EVQP7C01P"
+			(at 67.31 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP7C"
+			(at 60.96 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ab9e09f-43c5-4c7a-9166-80d4bebafaa3")
+		)
+		(pin "1"
+			(uuid "4eea32d1-77de-429a-85a8-cc32edc2932c")
+		)
+		(instances
+			(project "esp32c5-airunit-nano"
+				(path "/d536f07d-edbd-473f-b507-96822d187be1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 80.01 90)
 		(unit 1)
@@ -8615,8 +8708,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 30.48 53.848 0)
+		(property "Value" "100nF 10V"
+			(at 25.908 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9006,8 +9099,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 246.634 100.838 0)
+		(property "Value" "10uF 10V"
+			(at 246.888 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9246,8 +9339,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 144.78 53.594 0)
+		(property "Value" "10uF 10V"
+			(at 140.208 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9317,7 +9410,7 @@
 		(dnp no)
 		(uuid "d106f069-afed-484e-826f-435ff9282abe")
 		(property "Reference" "U2"
-			(at 78.994 77.978 0)
+			(at 73.914 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9327,8 +9420,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C5-WROOM-1U"
-			(at 78.994 80.518 0)
+		(property "Value" "ESP32-C5-WROOM-1U-N8R8"
+			(at 73.914 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9810,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Value" "0475710001"
+		(property "Value" "TF-021B-H265"
 			(at 165.1 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,88 +10183,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 66.04 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0b4e1ef-fbac-468e-b0fa-e241011427a7")
-		(property "Reference" "SW1"
-			(at 67.31 163.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "record"
-			(at 67.31 166.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 66.04 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1e6aee0-2ed8-41fc-9693-7cfcba15fd38")
-		)
-		(pin "2"
-			(uuid "a932382c-28f5-4e21-9004-c2e0ec93b3af")
-		)
-		(instances
-			(project "esp32c5-airunit-nano"
-				(path "/d536f07d-edbd-473f-b507-96822d187be1"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 36.83 40.64 0)
 		(unit 1)
@@ -10347,7 +10358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 10V"
 			(at 89.408 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
