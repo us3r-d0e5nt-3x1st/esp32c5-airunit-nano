@@ -2,7 +2,7 @@ it's ready, but i still need to check if everything works in practice and write 
 
 <img width="1992" height="1992" alt="3" src="https://github.com/user-attachments/assets/f31811bc-05ec-4340-8f3e-fd5b10240709" />
 
-<img width="1658" height="1166" alt="5" src="https://github.com/user-attachments/assets/4daabe41-de07-4ad8-87f7-0c5986b5bd45" />
+<img width="1198" height="826" alt="5" src="https://github.com/user-attachments/assets/09999a6a-70b1-4c0e-bce9-d4ca3e9245ea" />
 
 <img width="1647" height="1136" alt="6" src="https://github.com/user-attachments/assets/055898d8-7629-47a3-8546-f8903e27c78b" />
 
