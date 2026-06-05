@@ -2657,9 +2657,9 @@
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(Y1-Tri-State-Pad1)")
+			(net "+3V0")
 			(pinfunction "Tri-State_1")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "f0cf71c9-dc60-47c6-a30b-67a202298991")
 		)
 		(pad "2" smd roundrect
@@ -2723,7 +2723,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "25kR"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9faa4a1e-afe8-45cf-9093-e2e919ac1189")
@@ -4145,7 +4145,7 @@
 				)
 			)
 		)
-		(property "Value" "red"
+		(property "Value" "NCD0603R2"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3a16513a-9a7d-4cd9-ac64-1b798db7334e")
@@ -6098,6 +6098,14 @@
 		(layer "F.Cu")
 		(net "+3V0")
 		(uuid "bb6d0dc7-b002-47c4-ac72-23552b12871a")
+	)
+	(segment
+		(start 148.115 74.4925)
+		(end 148.115 75.9425)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3V0")
+		(uuid "c1641389-7be4-4c69-8b06-f3909c1d69c0")
 	)
 	(segment
 		(start 154.59 72.61)
