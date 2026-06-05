@@ -8072,7 +8072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22kR"
+		(property "Value" "25kR"
 			(at 70.866 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
