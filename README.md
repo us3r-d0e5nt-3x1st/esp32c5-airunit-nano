@@ -4,7 +4,8 @@ it's ready, but i still need to check if everything works in practice and write 
 
 <img width="1658" height="1166" alt="5" src="https://github.com/user-attachments/assets/4daabe41-de07-4ad8-87f7-0c5986b5bd45" />
 
-<img width="1717" height="1180" alt="6" src="https://github.com/user-attachments/assets/fb2bdb32-e376-4167-b829-525b2696f484" />
+<img width="1647" height="1136" alt="6" src="https://github.com/user-attachments/assets/055898d8-7629-47a3-8546-f8903e27c78b" />
+
 !!! THE R2 SHOULD BE AROUND 25kR, WE NEED 3.0V ON THE OUTPUT OF THE CONVERTER, AND THE FEEDBACK VOLTAGE IS 0.6V !!! <br><br>
 
 
