@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "esp32c5-airunit-nano")
+		(date "2026-06-07")
+		(rev "v1.1")
+		(company "us3r_d0e5nt_3x1st")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -5747,7 +5753,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "version 1.0\nvcc: 3.0v to 5.5v"
+	(gr_text "version 1.1\nvcc: 3.0v to 5.5v"
 		(at 149.24 87.39 0)
 		(layer "B.SilkS")
 		(uuid "5a8e3992-e003-4da9-8f2a-6dc43ba2e263")

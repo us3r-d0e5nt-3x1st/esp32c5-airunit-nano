@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "esp32c5-airunit-nano")
-		(date "2026-06-05")
-		(rev "V1.0")
+		(date "2026-06-07")
+		(rev "V1.1")
 		(company "us3r_d0e5nt_3x1st")
 	)
 	(lib_symbols
