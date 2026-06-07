@@ -4,9 +4,7 @@ it's ready, but i still need to check if everything works in practice and write 
 
 <img width="1198" height="826" alt="5" src="https://github.com/user-attachments/assets/09999a6a-70b1-4c0e-bce9-d4ca3e9245ea" />
 
-<img width="1647" height="1136" alt="6" src="https://github.com/user-attachments/assets/055898d8-7629-47a3-8546-f8903e27c78b" />
-
-!!! THE R2 SHOULD BE AROUND 25kR, WE NEED 3.0V ON THE OUTPUT OF THE CONVERTER, AND THE FEEDBACK VOLTAGE IS 0.6V !!! <br><br>
+<img width="1740" height="1202" alt="6" src="https://github.com/user-attachments/assets/065c97ef-6a61-460d-be17-25e993a0cacf" />
 
 
 resources taken mostly from seeed's wiki for xiao s3 board: [https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#for-seeed-studio-xiao-esp32s3-sense](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#for-seeed-studio-xiao-esp32-s3-sense) + the amazing hx-esp32-cam-fpv project + some weird websites
