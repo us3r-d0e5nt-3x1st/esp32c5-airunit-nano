@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
-%TF.CreationDate,2026-06-08T17:05:58+02:00*%
+%TF.CreationDate,2026-06-08T17:25:10+02:00*%
 %TF.ProjectId,esp32c5-airunit-nano,65737033-3263-4352-9d61-6972756e6974,v1.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.1) date 2026-06-08 17:05:58*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-06-08 17:25:10*
 %MOMM*%
 %LPD*%
 G01*
